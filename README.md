@@ -13,19 +13,19 @@ Define S(P1) = the number of transitions from 0 to 1, (0 -> 1) in the sequence P
 
 Step 1:
 All pixels are tested and pixels satisfying all the following conditions (simultaneously) are just noted at this stage. After iterating over the image and collecting all the pixels satisfying all step 1 conditions, all these noted pixels are set to 0.
-  Condition 0: The pixel is 1 and has eight neighbours
-  Condition 1: 2 < = N(P1) < = 6
-  Condition 2: S(P1) = 1
-  Condition 3: P2 * P4 * P6 = 0
-  Condition 4: P4 * P6 * P8 = 0
+    Condition 0: The pixel is 1 and has eight neighbours
+    Condition 1: 2 < = N(P1) < = 6
+    Condition 2: S(P1) = 1
+    Condition 3: P2 * P4 * P6 = 0
+    Condition 4: P4 * P6 * P8 = 0
 
 Step 2:
-All pixels are again tested and pixels satisfying all the following conditions are just noted at this stage. After iterating over the image and collecting all the pixels satisfying all step 2 conditions, all these noted pixels are again set to white.
-Condition 0: The pixel is black and has eight neighbours
-Condition 1: 2 < = N(P1) < = 6
-Condition 2: S(P1) = 1
-Condition 3: P2 * P4 * P8 = 0
-Condition 4: P2 * P6 * P8 = 0
+All pixels are again tested and pixels satisfying all the following conditions are just noted at this stage. After iterating over the image and collecting all the pixels satisfying all step 2 conditions, all these noted pixels are again set to 0.
+    Condition 0: The pixel is black and has eight neighbours
+    Condition 1: 2 < = N(P1) < = 6
+    Condition 2: S(P1) = 1
+    Condition 3: P2 * P4 * P8 = 0
+    Condition 4: P2 * P6 * P8 = 0
 
 Iteration
 If any pixels were set in this round of either step 1 or step 2 then all steps are repeated until no image pixels are so changed.
