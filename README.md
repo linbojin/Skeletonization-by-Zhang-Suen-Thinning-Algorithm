@@ -1,4 +1,5 @@
-Zhang-Suen Thinning Algorithm, Python and Matlab Implementation
+Zhang-Suen Thinning Algorithm, 
+Python and Matlab Implementation
 ================================================
 Algorithm Description:
 ------------------------------------------------
