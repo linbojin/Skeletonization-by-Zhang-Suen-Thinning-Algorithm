@@ -1,16 +1,16 @@
-Zhang-Suen Thinning Algorithm,              Python and Matlab Implementation
+Zhang-Suen Thinning Algorithm, Python and Matlab Implementation
 ================================================
 Algorithm Description:
 ------------------------------------------------
-This algorithm is used for thinning binary image. It has two steps, which will be successively applied to the image.  <br/>
-Arrange the eight neighbors of P1 in a clockwise order: <br/>
+This algorithm is used for thinning binary image. Two steps will be successively applied to the image.  <br/>
+Here arrange the eight neighbors of P1 in a clockwise order: <br/>
 >    
      P9 P2 P3 
      P8 P1 P4 
      p7 P6 P5 
      
-Define N(P1) = The number of non-zore pixel neighbours of P1( = sum(P2 .. P9) ) <br/>
-Define S(P1) = the number of transitions from 0 to 1, (0 -> 1) in the sequence P2,P3,P4,P5,P6,P7,P8,P9,P2. <br/>
+Define N(P1) = the number of non-zore pixel neighbours of P1 ( = sum(P2 .. P9) ) <br/>
+Define S(P1) = the number of transitions from 0 to 1, (0 -> 1) in the sequence P2,P3,...,P8,P9,P2. <br/>
 
 ### Step 1:<br/>
 All pixels are tested and pixels satisfying all the following conditions (simultaneously) are just noted at this stage. After iterating over the image and collecting all the pixels satisfying all step 1 conditions, all these noted pixels are set to 0.<br/>
