@@ -1,5 +1,4 @@
-Zhang-Suen Thinning Algorithm,   <br/> 
-Python and Matlab Implementation
+Zhang-Suen Thinning Algorithm, Python and Matlab Implementation
 ================================================
 Algorithm Description:
 ------------------------------------------------
@@ -22,7 +21,7 @@ All pixels are tested and pixels satisfying all the following conditions (simult
     Condition 3: P2 * P4 * P6 = 0 
     Condition 4: P4 * P6 * P8 = 0 
 
-###　Step 2:<br/>
+### Step 2:<br/>
 All pixels are again tested and pixels satisfying all the following conditions are just noted at this stage. After iterating over the image and collecting all the pixels satisfying all step 2 conditions, all these noted pixels are again set to 0. <br/>
 >   
     Condition 0: The pixel is black and has eight neighbours 
@@ -31,11 +30,11 @@ All pixels are again tested and pixels satisfying all the following conditions a
     Condition 3: P2 * P4 * P8 = 0   
     Condition 4: P2 * P6 * P8 = 0   
 
-### Iteration   <br/> 
+### Iteration:   <br/> 
 If any pixels were set in this round of either step 1 or step 2 then all steps are repeated until no image pixels are so changed.   <br/> 
 
 ### Reference:   <br/> 
-Page48-50, "Character Recognition Systems: A Guide for Students and Practitioners" By Mohamed Cheriet, Nawwaf Kharma, Cheng-Lin Liu, Ching Suen
+Page48-50, "Character Recognition Systems: A Guide for Students and Practitioners" By Mohamed Cheriet, Nawwaf Kharma, Cheng-Lin Liu, Ching Suen <br/> 
 
 Implement Results:
 ------------------------------------------------
