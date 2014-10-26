@@ -38,7 +38,7 @@ Page48-50, "Character Recognition Systems: A Guide for Students and Practitioner
 
 Implement Results:
 ------------------------------------------------
-### Testing Environment: 
+Testing Environment: <br/>
 Python 2.7 ([scikit-image](http://scikit-image.org/) + matplotlib) <br/>
 Matlab 2012 <br/>
 <br/>
