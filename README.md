@@ -38,7 +38,8 @@ Page48-50, "Character Recognition Systems: A Guide for Students and Practitioner
 
 Implement Results:
 ------------------------------------------------
-Testing Environment: Python 2.7 ([scikit-image](http://scikit-image.org/) + matplotlib) and Matlab 2012.
+Testing Environment: Python 2.7 ([scikit-image](http://scikit-image.org/) + matplotlib) and Matlab 2012 </br>
+ </br>
 ![image](https://github.com/linbojin/Skeletonization-by-Zhang-Suen-Thinning-Algorithm/blob/master/results/test1.jpg)
 ![image](https://github.com/linbojin/Skeletonization-by-Zhang-Suen-Thinning-Algorithm/blob/master/results/test2.jpg)
 ![image](https://github.com/linbojin/Skeletonization-by-Zhang-Suen-Thinning-Algorithm/blob/master/results/test4.jpg)
