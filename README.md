@@ -24,7 +24,7 @@ All pixels are tested and pixels satisfying all the following conditions (simult
 ### Step 2:<br/>
 All pixels are again tested and pixels satisfying all the following conditions are just noted at this stage. After iterating over the image and collecting all the pixels satisfying all step 2 conditions, all these noted pixels are again set to 0. <br/>
 >   
-    Condition 0: The pixel is black and has eight neighbours 
+    Condition 0: The pixel is 1 and has eight neighbours 
     Condition 1: 2 < = N(P1) < = 6  
     Condition 2: S(P1) = 1   
     Condition 3: P2 * P4 * P8 = 0   
