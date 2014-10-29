@@ -31,7 +31,7 @@ All pixels are again tested and pixels satisfying all the following conditions a
     Condition 4: P2 * P6 * P8 = 0   
 
 ### Iteration:   <br/> 
-If any pixels were set in this round of either step 1 or step 2 then all steps are repeated until no image pixels are so changed.   <br/> 
+If any pixels were set in this round of either step 1 or step 2 then all steps are repeated until no image pixels are so changed. The last thing to note for this algorithm is that in each step the deletion of the noted points must be delayed until all the pixels of the image have been visited in order to avoid changing of pixels of the image during each step. <br/> 
 
 ### Reference:   <br/> 
 Page48-50, "Character Recognition Systems: A Guide for Students and Practitioners" By Mohamed Cheriet, Nawwaf Kharma, Cheng-Lin Liu, Ching Suen <br/> 
